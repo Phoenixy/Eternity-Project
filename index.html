@@ -24,29 +24,30 @@
     }	
 
 
-
-	.nav-container li a{
-	float:none
-	}
-	.nav-container li{
+	.nav-container{
 	position:relative;
+	zoom:1;
+	margin: 0 auto;
+	}
+	.nav-container a, .nav-container li{
+	float:left;
+	display:block;
+	white-space:nowrap;
+	}
+	.nav-container div a, .nav-container ul a, .nav-container ul li{
+	float:none;
 	}
 	.nav-container ul{
-	z-index:10;
+	left:-10000px;
+	position:absolute;
 	}
-	.nav-container ul ul{
-	z-index:20;
+	.nav-container, .nav-container ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
 	}
-	.nav-container ul ul ul{
-	z-index:30;
-	}
-	.nav-container ul ul ul ul{
-	z-index:40;
-	}
-	.nav-container ul ul ul ul ul{
-	z-index:50;
-	}
-	li:hover>ul{
+
+		li:hover>ul{
 	left:auto;
 	}
 	#nav-container ul {
