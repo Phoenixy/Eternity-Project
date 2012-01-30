@@ -22,23 +22,12 @@
      text-align:center;
      width: 60%;
     }
-    li ul {
-    display: none;
-    }
-    li:hover > ul {
-    display: block;
-    }
-    ul#nav li ul {
-    display: none;
-    }
-    ul#nav li:hover > ul {
-    display: block;
-    }
+
     ul.nice-menu li a:hover { 
     color: #fff; 
     background: #000;
     }
-      ul.nice-menu li a.active { 
+    ul.nice-menu li a.active { 
     color: #ff0; 
     background: #000;
     }  ul.nice-menu,
@@ -87,20 +76,20 @@
     <div class="download">
     <p style="text-align: center; "><a href="https://github.com/Phoenixy/Eternity-Project/zipball/master">
         <img border="3" width="221" height="203" src="http://upload.wikimedia.org/wikipedia/hu/f/f5/Maradj_talpon.jps" class="zippic"></a>
-    <ul>
+    <ul class="nice menu">
   <li><a href="#">Heading 1</a></li>
   <li><a href="#">Heading 2</a>
-    <ul>
-      <li><a href="#">Subitem 1</a></li>
-      <li><a href="#">Subitem 2</a></li>
-      <li><a href="#">Subitem 3</a></li>
-    </ul>
+    <ul class="nice menu">
+      <li><a href="#">Subitem 1</a class="active"></li>
+      <li><a href="#">Subitem 2</a class="active"></li>
+      <li><a href="#">Subitem 3</a class="active"></li>
+    </ul class="nice menu">
   </li>
   <li><a href="#">Heading 3</a>
-    <ul>
-      <li><a href="#">Subitem 4</a></li>
-      <li><a href="#">Subitem 5</a></li>
-      <li><a href="#">Subitem 6</a></li>
+    <ul class="nice menu">
+      <li><a href="#">Subitem 4</a class="active"></li>
+      <li><a href="#">Subitem 5</a class="active"></li>
+      <li><a href="#">Subitem 6</a class="active"></li>
     </ul>
   </li>
 </ul>
