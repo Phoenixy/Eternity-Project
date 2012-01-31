@@ -29,12 +29,18 @@
     #menu a:hover{
     color: #6c3600;
     }
-    #sub a {
-    display:none;
-    }
-    li:hover > #sub a {
-    display:block;
-    }
+    #navbar {
+	margin: 0;
+	padding: 0;
+	height: 1em; }
+	#navbar li {
+	list-style: none;
+	float: left; }
+	#navbar li a {
+	display: block;
+	padding: 3px 8px;
+	background-color: #5e8ce9;
+	color: #fff;
     h1 { font-size: 48px; color: #000000; }
     h1 .small { font-size: 0.3em; color:#808080; }
     h1 a { text-decoration: none }
@@ -59,14 +65,17 @@
         <img border="3" width="221" height="203" src="http://upload.wikimedia.org/wikipedia/hu/f/f5/Maradj_talpon.jps" class="zippic"></a>
    <ul id="menu" class="menu">
       <a href="http://eternity.wow-panda.com">Main Page</a>
-      <ul id="sub" class="sub">
-      <a href="http://wow-panda.com" Sub thing</a>
-      </ul>
-      <a href="http://github/Phoenixy/downloads">Downloads</a>
-      <a href="http://github/Phoenixy/downloads">Issues</a>
-      <a href="http://github/Phoenixy/downloads">GitHub</a>
-      <a href="http://github/Phoenixy/downloads">GitHub eternity</a>
-      <a href="http://github/Phoenixy/downloads">Wiki</a>
+	<ul id="navbar">
+	<li><a href="#">Item One</a><ul>
+	<li><a href="#">Subitem One</a></li>
+	<li><a href="#">Second Subitem</a></li>
+	<li><a href="#">Numero Tres</a></li></ul>
+	</li>
+      <li><a href="http://github/Phoenixy/downloads">Downloads</a></li>
+      <li><a href="http://github/Phoenixy/downloads">Issues</a></li>
+      <li><a href="http://github/Phoenixy/downloads">GitHub</a></li>
+      <li><a href="http://github/Phoenixy/downloads">GitHub eternity</a></li>
+      <li><a href="http://github/Phoenixy/downloads">Wiki</a></li>
       </ul>
 </div>
     <h1><a href="https://github.com/Phoenixy/Eternity-Project">Eternity-Project</a>
