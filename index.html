@@ -19,35 +19,34 @@
 
     }	
     #menu {
+    list-style: none;
+    float: left;
     text-align:left;
     color:#ffffff;
     }
-    #menu a {	
+    #menu li a {	
     padding: 10px 35px 10px 35px;
-    color:#ffffff;
+    display: block;
+    padding: 3px 8px;
+    background: transparent;
+    color: #fff;
     }
     #menu a:hover{
     color: #6c3600;
     }
-	#menu li ul {
-	display: none;
-	background: transparent;}
-	#menu li:hover ul {
-	display: block;
-	position: absolute;
-	margin: 0;
-	padding: 0; }
-	#menu li:hover li {
-	float: none; }
-	#menu li {
-	list-style: none;
-	float: left; }
-	#menu li a {
-	display: block;
-	padding: 3px 8px;
-	background: transparent;
-	color: #fff;
-	}
+    #menu li ul {
+    display: none;
+    background: transparent;
+    }
+    #menu li:hover ul {
+    display: block;
+    position: absolute;
+    margin: 0;
+    padding: 0; 
+    }
+    #menu li:hover li {
+    float: none; }
+
     h1 { font-size: 48px; color: #000000; }
     h1 .small { font-size: 0.3em; color:#808080; }
     h1 a { text-decoration: none }
@@ -71,9 +70,10 @@
     <p style="text-align: center; "><a href="https://github.com/Phoenixy/Eternity-Project/zipball/master">
         <img border="3" width="221" height="203" src="http://upload.wikimedia.org/wikipedia/hu/f/f5/Maradj_talpon.jps" class="zippic"></a>
    <ul id="menu">
-      <li><a href="http://eternity.wow-panda.com">Main Page</a><ul>
-      <li><a href="http://eternity.wow-panda.com">MainPage</a></li></li>
-      <li><a href="http://github/Phoenixy/downloads">Downloads</a></li>
+      <li><a href="http://eternity.wow-panda.com">Main Page</a></li>
+      <li><a href="http://github/Phoenixy/downloads">Downloads</a><ul>
+      <li><a href="http://github/Phoenixy/downloads">WoW-Panda downloads</a>
+      <li><a href="http://github/Phoenixy/downloads">GitHub downloads</a></li></li></li></ul>
       <li><a href="http://github/Phoenixy/downloads">Issues</a></li>
       <li><a href="http://github/Phoenixy/downloads">GitHub</a></li>
       <li><a href="http://github/Phoenixy/downloads">GitHub eternity</a></li>
