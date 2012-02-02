@@ -3,7 +3,7 @@
 <head>
   <meta charset='utf-8'>
   
-  <title>Eternity-Project v1.3</title>
+  <title>Eternity-Project v1.5</title>
   
   <style type="text/css">
      body {
@@ -12,9 +12,11 @@
      background-attachment:fixed;
      font-family: Helvetica, Arial, FreeSans, san-serif;
     }
-    #container {     
+    #container {   
+    z-index: 1;      
     background: url('http://www.wow-panda.com/sites/all/themes/wowpanda/images/right-sidebar.png') repeat;
-    margin: 0 auto;  
+    margin: 0 auto;
+    margin-top: -20px;  
     border-radius: 15px;
     text-align: center;
     width: 1024px;
@@ -24,7 +26,7 @@
     list-style: none;
     padding-left: 0px;
     background-image: url('http://www.wow-panda.com/sites/all/themes/wowpanda/images/right-sidebar.png');
-    border-radius:20px;
+    border-radius: 20px;
     margin-left: -25px;
     }
     
@@ -59,25 +61,33 @@
     
     h1 { font-size: 48px; color: #000000; 
     }
-    h1 .small { font-size: 0.3em; color:#808080; 
+    h1 .small { font-size: 0.3em; color:brown; 
     }
     h1 a { text-decoration: none 
     }
-    h2 { font-size: 24px; font-style:italic; color: #8b4515; text-shadow: black 0.1em 0.1em 0.2em; 
+    h2 { font-size: 40px; font-weight:bold; color: yellow; text-shadow: white 0.01em 0.01em 0.14em; 
     }
-    p { font-family: Verdana; font-weight: bold; color: #ffff00; text-shadow: black 0.1em 0.1em 0.2em; 
+    p { font-size: 24px; font-family: Calibri; color: orangered; 
     }
-    img.fork { float: right; margin-top: -20px; margin-right: -15px; 
+    p.phoenix { font-size: 24px; font-family: Tahoma; color: orangered; text-shadow: white 0.01em 0.01em 0.02em; border: 3px solid midnightblue; border-radius:15px; margin-left:325px; margin-right:325px;
     }
-    img.zippic { border-color: #ff4500; border-radius: 15px; 
+    p.csaba { font-size: 24px; font-family: Tahoma; color: orangered; text-shadow: white 0.01em 0.01em 0.02em; border: 3px solid midnightblue; border-radius:15px; margin-left:325px; margin-right:325px;
+    }
+    p.tonyo { font-size: 24px; font-family: Tahoma; color: orangered; text-shadow: white 0.01em 0.01em 0.02em; border: 3px solid midnightblue; border-radius:15px; margin-left:325px; margin-right:325px;
+    }
+    img.fork { position: absolute;  margin-top: -10px; margin-left: -20px; border: 0; 
+    }	
+    img.zippic { margin:auto; border-color: #ff4500; border-radius: 10px; 
     } 
-    img.design { margin-top: -35px; margin-bottom: -20px;
+    img.design { margin-top: -35px; margin-bottom: -20px; margin-left: -60px; margin-right: -60px;
     }
-    img.programmer { margin-top: -10px; margin-bottom: -25px;
+    img.programmer { margin-top: -10px; margin-bottom: -15px; 
+    }
+    img.helper { margin-top: -10px; margin-bottom: -15px; 
     }
     a { color: #4b8a57; text-shadow: black 0.1em 0.1em 0.2em; 
     }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;
+    .description { font-size: 1.4em; margin-bottom: 30px; margin-top: 30px; font-style: italic;
     }
     .download { float: center; 
     }
@@ -90,24 +100,23 @@
 </head>
 <link rel="icon" type="image/ico" href="http://wow-panda.com/sites/all/themes/wowpanda/eter_icon.ico" />
 <body>
-  <a href="https://github.com/Phoenixy/Eternity-Project"><img src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" class="fork" /></a>
+  <a href="http://github.com/Phoenixy"><img src="https://a248.e.akamai.net/assets.github.com/img/5d21241b64dc708fcbb701f68f72f41e9f1fadd6/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" class="fork" /></a>
   <div id="container">
-
     <div class="download">
-    <p style="text-align: center; "><a href="https://github.com/Phoenixy/Eternity-Project/zipball/master">
-        <img border="3" width="221" height="203" src="http://upload.wikimedia.org/wikipedia/hu/f/f5/Maradj_talpon.jps" class="zippic"></a>
+    <p>
+        <img align="middle" border="3" width="320" height="240" src="http://wow-panda.com/sites/all/themes/wowpanda/army-of-eternity.png" class="zippic" />
    <ul id="menu">
-      <li><a href="http://eternity.wow-panda.com">Main Page</a></li>
+      <li><a href="#">Main Page</a></li>
       <li><a href="#">Downloads</a>
    <ul>
-      <li><a href="https://github.com/Phoenixy/">GitHub Downloads</a></li>
+      <li><a href="https://github.com/Phoenixy/Eternity-Project/downloads">GitHub Downloads</a></li>
       <li><a href="http://eternity.wow-panda.com/download.html">WoW-Panda Downloads</a></li>
   </ul>
 </li>
       <li><a href="https://github.com/Phoenixy/">GitHub</a></li>
-      <li><a href="https://github.com/Phoenixy/Eternity-Project/Issues">Issues</a></li>
+      <li><a href="https://github.com/Phoenixy/Eternity-Project/issues">Issues</a></li>
       <li><a href="https://github.com/Phoenixy/Eternity-Project">Eternity-Pjroject</a></li>
-      <li><a href="https://github.com/Phoenixy/Eternity-Project/Wiki">Wiki</a></li>
+      <li><a href="https://github.com/Phoenixy/Eternity-Project/wiki">Wiki</a></li>
       </ul>
 <br />
 </div>
@@ -116,17 +125,17 @@
       <span class="small">now even more <span style="color:purple">EPIC</span> Design by <a href="https://github.com/Phoenixy">Phoenixy</a></span></h1>
     <div class="description">    
     </div>  
-      <h2>Authors</h2>      
-      <p>Phoenix
-<br /><img src="http://wow-panda.com/sites/all/themes/wowpanda/design.png" class="design" />      
+      <h2><u>The Authors of this project</u></h2> 
+      <p class="phoenix">Phoenix 
+<br /><img src="http://wow-panda.com/sites/all/themes/wowpanda/design.png" class="design" /></p>      
 
-<br/>CsaBa
-<br/><img src="http://wow-panda.com/sites/all/themes/wowpanda/programmer.png" class="programmer" />
+<p class="csaba">CsaBa 
+<br/><img src="http://wow-panda.com/sites/all/themes/wowpanda/programmer.png" class="programmer" /></p>
 
-<br/><br/>CsToM
-<br/><img src="http://wow-panda.com/sites/all/themes/wowpanda/helper.png" class="programmer" /></p>    
+<p class="tonyo">CsToM 
+<br/><img src="http://wow-panda.com/sites/all/themes/wowpanda/helper.png" class="helper" /></p>    
     
-      <h2>Contact</h2>
+      <h2><u>Contact information</u></h2>
       <p> hollandphoenix23@gmail.com
 <br/> </p> 
 <br/>
